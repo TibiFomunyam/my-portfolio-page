@@ -4,42 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Profile</title>
 
+    <title>My Personal Portfolio</title>
+
+    <!-- Connect CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Welcome to My Website</h1>
-        <p>Hello! My name is Tibi.</p>
+        <h1>Welcome to My Portfolio</h1>
+        <p>My Journey into Web Development</p>
     </header>
-     
+
     <main>
-        <h2>About Me</h2>
-        <p class="text">I am a beginner learning web development.</p>
-        <button id="moreButton">Show More About Me</button>
 
-<p id="moreAbout" hidden>
-    I am learning HTML, CSS and JavaScript.
-    My goal is to become a skilled web developer
-    and build useful websites.
-</p>
+        <!-- About Me Section -->
+        <section class="about">
+            <h2>About Me</h2>
 
-        <h2>My Interests</h2>
-<div class="interests">
-    <div class="card">Coding</div>
-    <div class="card">Technology</div>
-    <div class="card">Music</div>
-</div>
+            <p>
+                Hello! I am a beginner web developer learning
+                how to build websites using HTML, CSS and JavaScript.
+                I enjoy learning new technologies and improving
+                my programming skills.
+            </p>
+
+            <button id="moreButton">Show More About Me</button>
+
+            <div id="moreAbout" hidden>
+                <p>
+                    My goal is to become a skilled software developer.
+                    I enjoy solving problems, learning new things
+                    and creating useful websites.
+                </p>
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section class="interests">
+            <h2>My Interests</h2>
+
+            <div class="interest-container">
+                <div class="interest-card">Web Development</div>
+                <div class="interest-card">Technology</div>
+                <div class="interest-card">Programming</div>
+            </div>
+        </section>
+
+        <!-- Learning Section -->
+        <section class="learning">
+            <h2>What I Am Learning</h2>
+
+            <p>
+                I am currently learning HTML, CSS, JavaScript,
+                Git and GitHub as part of my software engineering journey.
+            </p>
+        </section>
+
     </main>
 
     <footer>
-        <p>Created by Tibi</p>
+        <p>My Personal Portfolio | 2026</p>
+        <p>Learning today, building tomorrow.</p>
     </footer>
-    <script src="script.js"></script>
 
+    <!-- Connect JavaScript -->
+    <script src="script.js"></script>
 
 </body>
 </html>
