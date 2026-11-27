@@ -1,5 +1,4 @@
-/* General styling */
-
+/* General page styling */
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +13,6 @@ body {
 }
 
 /* Header */
-
 header {
     background-color: #17365d;
     color: white;
@@ -32,7 +30,6 @@ header p {
 }
 
 /* Main content */
-
 main {
     max-width: 1000px;
     margin: 40px auto;
@@ -40,7 +37,6 @@ main {
 }
 
 /* Sections */
-
 section {
     background-color: white;
     padding: 30px;
@@ -55,7 +51,6 @@ h2 {
 }
 
 /* Button */
-
 button {
     background-color: #1769aa;
     color: white;
@@ -71,8 +66,7 @@ button:hover {
     background-color: #104c80;
 }
 
-/* Interests */
-
+/* Interests section using Flexbox */
 .interest-container {
     display: flex;
     justify-content: center;
@@ -92,19 +86,15 @@ button:hover {
 }
 
 /* Footer */
-
 footer {
     background-color: #17365d;
     color: white;
     text-align: center;
     padding: 25px;
-    margin-top: 40px;
 }
 
-/* Mobile responsiveness */
-
+/* Mobile screen styling */
 @media (max-width: 600px) {
-
     header h1 {
         font-size: 27px;
     }
@@ -121,5 +111,4 @@ footer {
     .interest-container {
         flex-direction: column;
     }
-
 }
